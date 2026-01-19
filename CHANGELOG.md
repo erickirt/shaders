@@ -1,5 +1,14 @@
 # Paper Shaders
 
+## Version 0.0.71
+
+- **General**
+  - Images smaller than 1024x1024 are now upscaled before final rasterization, improving the quality of small SVG image inputs
+- **Halftone CMYK**
+  - Flood parameters now affect the transparent areas
+- **Image Dithering**
+  - Add an `inverted` option
+
 ## Version 0.0.70
 
 - **Halftone CMYK**
