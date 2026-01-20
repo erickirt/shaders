@@ -6,6 +6,7 @@
   - Images smaller than 1024x1024 are now upscaled before final rasterization, improving the quality of small SVG image inputs
 - **Halftone CMYK**
   - Flood parameters now affect the transparent areas
+  - Full support of image transparency 
 - **Image Dithering**
   - Add an `inverted` option
 
